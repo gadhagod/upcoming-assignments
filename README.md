@@ -8,13 +8,13 @@ Schoology calender is kinda cramped. Also, it doesn't show due times for assignm
 Four enviroment variables are used:
 - `SCHOOLOGY_KEY` and `SCHOOLOGY_SECRET` are your API credentials. Obtain them from `{school's schoology URL}/api`
 - `CLASSES` is a string, is in the format of a JSON object. Each key will be the class name, and each value will be the class ID
- - Example: `{"English": 1234567, "Math": 2345678}`
+   - Example: `{"English": 1234567, "Math": 2345678}`
 - `SCHOOLOGY_URL` is your school's schoology url. 
- - Example: `https://schoology.myschool.com` (or .org, .net; whatever your school's website uses)
+   - Example: `https://schoology.myschool.com` (or .org, .net; whatever your school's website uses)
 To set an enviroment variable, run `'export VAR_NAME=VAR_VALUE'`
 
 ### Running locally
-It's probably a better idea to run locally, because only you will be able to see your assignments. \
+It's probably a good idea to run locally, because only you will be able to see your assignments. \
 To start up the server, run:
     
     python3 server.py &
